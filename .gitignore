@@ -1,0 +1,33 @@
+# Python-Specific Clutter
+__pycache__/ 
+*.pyc
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Generated Outputs
+reports/*
+!reports/README.md
+
+# Data Files
+data/*
+!data/README.md
+
+# Editor/IDE-Specific
+.vscode/
+.idea/
+
+# OS Clutter
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Build/Cache Artifacts
+*.log
+*.tmp
+.pytest_cache/
+.coverage
+
+# Secrets
+.env
+
